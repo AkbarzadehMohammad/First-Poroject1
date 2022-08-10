@@ -1,0 +1,87 @@
+@import url(font-awesome.min.css);
+@font-face {
+    font-family: "Raleway";
+    src: url(../Fonts/Raleway/Raleway-VariableFont_wght.ttf);
+}
+* {
+    margin: 0;
+}
+body{
+    font-family: "Raleway", Helvetica, sans-serif;
+    color: #444;
+    
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.header h1 {
+    float: left;
+}
+.nav {
+    text-align: right;
+}
+
+.nav ul li {
+    display: inline;
+    padding: 0 15px;
+    
+}
+.nav ul li a {
+    color: rgba(255, 255, 255, 0.5);
+
+    transition: color 0.2s ease-in-out;
+}
+.nav ul li a:hover{
+    color: #fff;
+}
+.header {
+    background-image: url(../image/dark_tint.png) , url(../image/bokeh_car_lights_bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.top-menu{
+    padding: 40px;
+}
+.btn {
+    padding: 10px 22px;
+    border-radius: 30px;
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    font-family: "Raleway";
+}
+.btn-gray {
+    background-color: #fff;
+    color:#444 !important;
+}
+.btn-blue {
+    background-color: #3cadd4 ;
+    color: #fff !important;
+}
+.btn-big {
+    font-size: 25px !important;
+}
+.btn-dark {
+    background-color: #383b43;
+    color: #fff !important;
+}
+.Banner {
+    padding: 150px 0;
+    text-align: center;
+}
+.Banner h2 {
+    color: #fff;
+    font-size: 60px;
+    line-height: 130px;
+}
+.Banner p {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.product-header {
+    text-align: center;
+}
